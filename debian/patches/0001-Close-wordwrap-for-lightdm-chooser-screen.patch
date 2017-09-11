@@ -1,0 +1,22 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Fri, 8 Sep 2017 14:20:14 +0300
+Subject: Close wordwrap for lightdm chooser screen
+
+---
+ dde-wm-chooser/wmchooser.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dde-wm-chooser/wmchooser.cpp b/dde-wm-chooser/wmchooser.cpp
+index ed3a01a..d855625 100644
+--- a/dde-wm-chooser/wmchooser.cpp
++++ b/dde-wm-chooser/wmchooser.cpp
+@@ -40,7 +40,7 @@ WMChooser::WMChooser(QWidget *parent)
+                             "color: #ffffff;");
+ 
+     QLabel*tip = new QLabel(tr("System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to select Common Mode"));
+-    tip->setWordWrap(true);
++    //tip->setWordWrap(true);
+ 
+     QLabel *bottomTip = new QLabel(tr("Effect Mode: You can smoothly and gorgeously experience. Common Mode: You can extremely rapidly experience"));
+     tip->setStyleSheet("line-height: 1.43;"

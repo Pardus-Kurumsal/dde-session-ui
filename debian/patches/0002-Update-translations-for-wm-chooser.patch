@@ -1,0 +1,35 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Mon, 11 Sep 2017 14:17:26 +0300
+Subject: Update translations for wm-chooser
+
+---
+ translations/dde-session-ui_tr.ts | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/translations/dde-session-ui_tr.ts b/translations/dde-session-ui_tr.ts
+index 860da7c..d0a3625 100644
+--- a/translations/dde-session-ui_tr.ts
++++ b/translations/dde-session-ui_tr.ts
+@@ -245,12 +245,12 @@
+     <message>
+         <location filename="../dde-wm-chooser/wmchooser.cpp" line="42"/>
+         <source>System has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, it is recommended to select Common Mode</source>
+-        <translation>Sistem, düzgün bir deneyim için, sistem performansını ve çalışma deneyimini etkileyecek bir sanal makine kullandığını tespit etti; Ortak Modu seçmeniz önerilir</translation>
++        <translation>Sistem bir sanal makine kullandığını tespit etti; düzgün bir deneyim için Ortak Modu seçmeniz önerilir</translation>
+     </message>
+     <message>
+         <location filename="../dde-wm-chooser/wmchooser.cpp" line="45"/>
+         <source>Effect Mode: You can smoothly and gorgeously experience. Common Mode: You can extremely rapidly experience</source>
+-        <translation>Etki Modu: Sorunsuz ve muhteşem bir deneyim yaşayabilirsiniz. Ortak Mod: Son derece hızlı bir şekilde deneyimleyebilirsiniz</translation>
++        <translation>Etki Modu: Tüm pencere efektlerinin açık olduğu mod. Ortak Mod: Kısıtlanmış efektlerin bulunduğu hızlı mod.</translation>
+     </message>
+ </context>
+ <context>
+@@ -297,4 +297,4 @@
+         <translation>Düşül pil, lütfen prize takın</translation>
+     </message>
+ </context>
+-</TS>
+\ No newline at end of file
++</TS>

@@ -1,6 +1,18 @@
-dde-session-ui (4.0.13-1) zesty; urgency=low
+dde-session-ui (4.0.13-1pardus3) onyedi; urgency=medium
 
-  [ shuttle ]
-  * Auto Version update.
+  * Add patches
 
- -- lilongyu <leaeasy@gmail.com>  Thu, 03 Aug 2017 10:06:09 +0800
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 11 Sep 2017 14:18:39 +0300
+
+dde-session-ui (4.0.13-1pardus2) onyedi; urgency=medium
+
+  * Update control file
+  * Add patches
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 08 Sep 2017 14:24:48 +0300
+
+dde-session-ui (4.0.13-1pardus1) onyedi; urgency=low
+
+  * Implement debian version for Pardus.
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 21 Aug 2017 13:46:09 +0300
