@@ -1,0 +1,35 @@
+QWidget#ShutDownButton {
+    qproperty-normalIcon:":img/shutdown_normal.png";
+    qproperty-hoverIcon:":img/shutdown_hover.png";
+    qproperty-pressedIcon:":img/shutdown_press.png";
+}
+
+QWidget#RestartButton {
+    qproperty-normalIcon:":img/restart_normal.png";
+    qproperty-hoverIcon:":img/restart_hover.png";
+    qproperty-pressedIcon:":img/restart_press.png";
+}
+
+QWidget#SuspendButton {
+    qproperty-normalIcon:":img/suspend_normal.png";
+    qproperty-hoverIcon:":img/suspend_hover.png";
+    qproperty-pressedIcon:":img/suspend_press.png";
+}
+
+QWidget#LockButton {
+    qproperty-normalIcon:":img/lock_normal.png";
+    qproperty-hoverIcon:":img/lock_hover.png";
+    qproperty-pressedIcon:":img/lock_press.png";
+}
+
+QWidget#LogoutButton {
+    qproperty-normalIcon:":img/logout_normal.png";
+    qproperty-hoverIcon:":img/logout_hover.png";
+    qproperty-pressedIcon:":img/logout_press.png";
+}
+
+QWidget #SwitchUserButton {
+    qproperty-normalIcon:":img/userswitch_normal.png";
+    qproperty-hoverIcon:":img/userswitch_hover.png";
+    qproperty-pressedIcon:":img/userswitch_press.png";
+}

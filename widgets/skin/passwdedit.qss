@@ -1,0 +1,40 @@
+QPushButton#KeyBoardLayoutButton {
+   border-image: url(":img/keyboard_normal.png");
+   background-color: transparent;
+   border:none;
+   margin: 0;
+   margin-left: 10px;
+   margin-right: 4px;
+}
+
+QPushButton#KeyBoardLayoutButton:hover {
+    border-image: url(":img/keyboard_hover.png");
+}
+
+QPushButton#KeyBoardLayoutButton:pressed {
+    border-image: url(":img/keyboard_press.png");
+}
+
+QLineEdit#passwdLineEdit {
+    color:white;
+    border: none;
+    background: transparent;
+    selection-color: white;
+    selection-background-color: rgba(24,135,239,0.30);
+    margin-top: 4px;
+}
+
+QFrame#PassWdEditFrame {
+    border: none;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.15);
+}
+
+QFrame#PassWdEditFrame[alert="true"] {
+    border: 1px solid #f9704f;
+
+}
+
+QFrame#PassWdEditFrame QLineEdit {
+    padding:0 0 4px 0;
+}

@@ -1,0 +1,20 @@
+QWidget#RequireShutdownButton {
+    border: 2px solid red;
+    qproperty-normalIcon:":/img/list_actions/shutdown_normal.png";
+    qproperty-hoverIcon:":/img/list_actions/shutdown_hover.png";
+    qproperty-pressedIcon:":/img/list_actions/shutdown_press.png";
+}
+
+QWidget#RequireRestartButton {
+    border: 2px solid red;
+    qproperty-normalIcon:":/img/list_actions/restart_normal.png";
+    qproperty-hoverIcon:":/img/list_actions/restart_hover.png";
+    qproperty-pressedIcon:":/img/list_actions/restart_press.png";
+}
+
+QWidget#RequireSuspendButton {
+    border: 2px solid red;
+    qproperty-normalIcon:":/img/list_actions/suspend_normal.png";
+    qproperty-hoverIcon:":/img/list_actions/suspend_hover.png";
+    qproperty-pressedIcon:":/img/list_actions/suspend_press.png";
+}
